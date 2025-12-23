@@ -28,7 +28,7 @@ while True:
         else:
             print("Not valid")
     elif(choice==4):
-        text4=input("Enter phone number(Note:-No need to enter country code):")
+        text4=input("Enter phone number:")
         res4=re.fullmatch(pattern4,text4)
         if(res4!=None):
             print("Valid")
@@ -36,4 +36,5 @@ while True:
             print("Not valid")
     else:
         print("Invalid input")
+
         break
